@@ -1,0 +1,332 @@
+@media screen and (max-width: 1070px) {
+  main {
+    width: 100%;
+  }
+  
+  header nav .checkBtn {
+    display: block;
+
+  }
+  header nav .logo a {
+    font-size: 35px;
+}
+  header {
+    width: 100%;
+    position: static;
+    background-color: white;
+  }
+  header nav .nav-items {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+    transition: 0.5s ease;
+    z-index: 10000;
+  }
+  header nav .nav-items ul {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0px;
+    background-color: rgb(213,225,223);
+    float: right;
+    align-items: flex-start;
+    display: grid; 
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  header nav .nav-items ul li {
+    height: 40px;
+  }
+  header nav .nav-items .checkBtn {
+    background-color: white;
+    width: 80%;
+    padding: 0px;
+    float: right;
+    position: relative;
+  }
+  header nav .nav-items .checkBtn i {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: black;
+  }
+
+  header nav .nav-items ul li {
+    padding-left: 1rem;
+  }
+
+  header nav .nav-items ul li a {
+    font-size: 1.1;
+    color: black;
+  }
+
+  header nav .nav-items ul li a:hover,
+  header nav .nav-items ul li a.active {
+    background-color: transparent;
+    color: var(--active-color);
+  }
+
+  header nav #check:checked~.nav-items {
+    right: 0px;
+  }
+  .chat  {
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(163, 184, 180);
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    gap: 10px;
+  }
+  .chat i {
+    font-size: 2em;
+    color: white;
+    margin-left: 9px;
+  }
+  .chat p {
+    font-size: 0px;
+    color: white;
+    
+  }
+  main .tree .right {
+    width: 50%;
+    margin: 0;
+    right: 0px;
+    
+  }
+  main .tree .label {
+    width: 400px ;
+  }
+
+}
+@media  screen and (max-width:1050px) {
+  main .areas .expertise div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  main .areas .expertise h2 {
+    
+    display: flex;
+    align-items: center;
+    
+   
+  }
+  
+  main .areas .expertise h5  {
+    
+    width: 300px;
+
+  }
+  main .paragraph .text p { 
+    width: 400px;
+  }
+  main .name p {
+    width: 400px;
+  }
+  main .tree p {
+    width: 350px;
+  }
+  main .tree .right .contacts .adress {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  main .tree .left img {
+    width: 100%;
+    
+    object-fit: cover;
+  }
+
+}
+@media screen  and (max-width:800px) {
+
+  
+  main .areas .expertise h5  {
+    
+    width: 300px;
+
+  }
+  main .paragraph .text p { 
+    width: 300px;
+  }
+  main .name p {
+    width: 300px;
+  }
+  main .tree p {
+    width: 250px;
+  }
+  main .tree .right .contacts .adress {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  main .tree .left img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+main .tree .label {
+  width: 300px ;
+  
+}
+
+main .tree .label .message {
+  width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+  header nav .logo a  {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+  }
+  main .name .logo {
+    width: 350px;
+  }
+  main .name {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  main .name .left {
+    width: 100%;
+  }
+  main .name .left img {
+    width: 100%;
+    height: 400px;
+    
+  }
+  main .name .right {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+  main .name .right .second  {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+  main .name .right .second .paragraph h1 {
+    font-size: 65px;
+  }
+  main .name .right .second p {
+    width: 350px;
+  }
+  main .areas {
+    height: 1435px;
+    width: 100%;
+    
+  }
+  main .areas .read {
+    display: grid;
+    align-content: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  main .areas .read .expertise {
+    width: 100%;
+    background-size: 100%;
+  }
+   
+  main .areas .read .paragraph {
+    width: 100%;
+    
+  }
+  footer {
+    bottom: 0;
+  }
+  main .tree {
+    height: 100%;
+  }
+  main .tree div {
+    background-color: rgb(242,242,242);
+  }
+  main .tree div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  main .tree div .left {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  main .tree div .left img {
+    width: 100%;
+    
+    object-fit: contain;
+  }
+  main .tree .right {
+    width: 100%;
+  }
+  main .tree .right .all {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  main .tree .right .all .label {
+    width: 300px;
+  }
+  main .tree .right .all .label .labels{
+    
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  main .tree .right .all .label .labels input {
+    width: 300px;
+    padding: 0;
+  }
+  main .tree .right .all .label .message {
+    width: 300px;
+    
+  }
+  main .tree .right .all .label .message input {
+    width: 300px;
+    margin-left: 0;
+  }
+  main .tree button {
+    width: 300px;
+    margin-left: 0;
+  }
+  main .tree div .right .contacts {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  main .tree div .right .adresses .contacts .adress {
+    height: 100px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    
+  }
+}

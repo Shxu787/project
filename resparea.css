@@ -1,0 +1,216 @@
+@media screen and (max-width: 1070px) {
+    main {
+      width: 100%;
+    }
+    header nav .logo a {
+      font-size: 35px;
+  }
+    header nav .checkBtn {
+      display: block;
+  
+    }
+    header {
+      width: 100%;
+      position: static;
+      background-color: white;
+    }
+    header nav .nav-items {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      right: -100%;
+      top: 0;
+      transition: 0.5s ease;
+      z-index: 10000;
+    }
+    header nav .nav-items ul li {
+      height: 40px;
+    }
+    header nav .nav-items ul {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      padding: 0px;
+      background-color: rgb(213,225,223);
+      float: right;
+      align-items: flex-start;
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header nav .nav-items .checkBtn {
+      background-color: white;
+      width: 80%;
+      padding: 0px;
+      float: right;
+      position: relative;
+    }
+    header nav .nav-items .checkBtn i {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      color: black;
+    }
+  
+    header nav .nav-items ul li {
+      padding-left: 1rem;
+    }
+  
+    header nav .nav-items ul li a {
+      font-size: 1.1;
+      color: black;
+    }
+  
+    header nav .nav-items ul li a:hover,
+    header nav .nav-items ul li a.active {
+      background-color: transparent;
+      color: var(--active-color);
+    }
+  
+    header nav #check:checked~.nav-items {
+      right: 0px;
+    }
+    .chat  {
+      bottom: 20px;
+      right: 20px;
+      background-color: rgb(163, 184, 180);
+      position: fixed;
+      width: 70px;
+      height: 70px;
+      border-radius: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      gap: 10px;
+    }
+    .chat i {
+      font-size: 2em;
+      color: white;
+      margin-left: 9px;
+    }
+    .chat p {
+      font-size: 0px;
+      color: white;
+      
+    }
+     
+  }
+
+  @media screen and (max-width: 1000px) {
+    main .leaf .right .head {
+      margin-left: 50px;
+    }
+    main .leaf .right .text {
+      margin-left: 50px;
+      
+    }
+    main .leaf .right .text p  {
+      width: 400px;
+    }
+    main .approach .left .main {
+      margin-left: 50px;
+    }
+    main .approach .left .main p {
+      width: 400px;
+    }
+
+  }
+  @media screen and (max-width:900px) {
+    main .leaf .right .head {
+      margin-left: 50px;
+    }
+    main .leaf .right .text {
+      margin-left: 50px;
+      
+    }
+    main .leaf .right .text p  {
+      width: 300px;
+    }
+    main .approach .left .main {
+      margin-left: 50px;
+    }
+    main .approach .left .main p {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width:700px) {
+    main .leaf .right .head {
+      margin-left: 50px;
+    }
+    main .leaf .right .text {
+      margin-left: 50px;
+      
+    }
+    main .leaf .right .text p  {
+      width: 250px;
+    }
+    main .approach .left .main {
+      margin-left: 50px;
+    }
+    main .approach .left .main p {
+      width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    main .leaf {
+      width: 100%;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+    }  
+    main .leaf .left {
+      width: 100%;
+      height: 900px;
+    }  
+    main .leaf .left img {
+      height: 100%;
+    }
+    main .leaf .right {
+      width: 100%;
+      justify-content: start;
+    }
+    main .leaf .right .head {
+      width: 100%;
+      font-size: 35px;
+     
+    }
+    main .approach  {
+      display: grid;
+      align-items: center;
+    }
+    main .approach .right {
+      width: 100%;
+    }    
+  }
+  @media screen and (max-width:615px) {
+    header nav .logo a {
+      font-size: 20px;
+  }
+    
+  }
+  @media screen and (max-width:500px) {
+    header nav .logo a {
+      margin: 0;
+      padding: 0;
+    }
+    
+    main .leaf .right .head {
+      width: 100%;
+      font-size: 20px;
+      margin-left: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    main .approach .left {
+      width: 100%;
+      align-items: center;
+      justify-content: start;
+    }
+    
+  }

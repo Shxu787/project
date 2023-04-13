@@ -1,0 +1,168 @@
+@media screen and (max-width: 1070px) {
+    main {
+      width: 100%;
+    }
+    header nav .logo a {
+        font-size: 35px;
+    }
+    header nav .checkBtn {
+      display: block;
+  
+    }
+    header nav .nav-items ul li {
+      height: 40px;
+    }
+    header {
+      width: 100%;
+      position: static;
+      background-color: white;
+    }
+    header nav .nav-items {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      right: -100%;
+      top: 0;
+      transition: 0.5s ease;
+      z-index: 10000;
+    }
+    header nav .nav-items ul {
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      padding: 0px;
+      background-color: rgb(213,225,223);
+      float: right;
+      align-items: flex-start;
+      display: grid;
+      align-content: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header nav .nav-items .checkBtn {
+      background-color: white;
+      width: 80%;
+      padding: 0px;
+      float: right;
+      position: relative;
+    }
+    header nav .nav-items .checkBtn i {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      color: black;
+    }
+  
+    header nav .nav-items ul li {
+      padding-left: 1rem;
+    }
+  
+    header nav .nav-items ul li a {
+      font-size: 1.1;
+      color: black;
+    }
+  
+    header nav .nav-items ul li a:hover,
+    header nav .nav-items ul li a.active {
+      background-color: transparent;
+      color: var(--active-color);
+    }
+  
+    header nav #check:checked~.nav-items {
+      right: 0px;
+    }
+    .chat  {
+      bottom: 20px;
+      right: 20px;
+      background-color: rgb(163, 184, 180);
+      position: fixed;
+      width: 70px;
+      height: 70px;
+      border-radius: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      gap: 10px;
+    }
+    .chat i {
+      font-size: 2em;
+      color: white;
+      margin-left: 9px;
+    }
+    .chat p {
+      font-size: 0px;
+      color: white;
+      
+    }
+     
+  }
+
+  @media screen and (max-width: 800px) {
+    main .all .text .head p {
+        width: 600px;
+        
+    }
+    hr {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 615px) {
+    main .all .text .head p {
+        width: 400px;
+        
+    }
+    hr {
+        width: 100%;
+    } 
+    header nav .logo a {
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    main .all .frames .search a article:nth-child(1) {
+        background-size: 0;
+        width: 0;
+        height: 0;
+    }
+    main .frames .search a article  {
+        width: 0;
+        height: 0;
+        background-size: 0;
+        font-size: 0;
+        
+
+    }
+   
+    
+  }
+  @media screen and (max-width:400px) {
+    
+    main .all .text .head {
+        text-align: center;
+    }
+    main .all .text .head p {
+        width: 250px;
+        
+    }
+    hr {
+        width: 100%;
+    } 
+    main .all .frames .search a .text h2 {
+        font-size: 15px;
+    }
+    main .all .frames .search a .text .date {
+        font-size: 0;
+        color: transparent;
+       
+    }
+    main .all .frames .search a .text {
+        height: 30px;
+        align-items: center;
+    }
+    main .all .frames .search a {
+        height: 100px;
+        align-items: center;
+    }
+  }
